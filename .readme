@@ -1,0 +1,11 @@
+# authentication :- you have to proof who i am
+# authorisation :- what access do you have
+
+# When you send a request to the server it asks for authentication then give a response if the credentials are valid and if you again send a req then it will again ask for authentication then becomes a hectic task as for doing anything diffrent you will have to verify yourself again and again.
+
+# So to overcome to this problem we use sessions & cookies. When you send a req and authentication completes and when the server sends you a response along with a string that string is attach to your req so if you send a req again the server will know that its you and will not ask for authentication again.
+
+# we will learn:-
+# (i) how to set cookies
+# (ii) how to use bcrypt for password encryption and decryption
+# (iii) what is jwt? how to store data in jwt and how to use that data?
